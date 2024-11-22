@@ -10,6 +10,7 @@ public class FlipCoin{
         for(int j=0;j<n;j++){
             Random rn = new Random(); 
             Double rand = rn.nextDouble(1);
+            //double rand=Math.random();
             if(rand<0.5){
                 t_cnt++;
             }
